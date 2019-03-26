@@ -1,0 +1,12 @@
+.search-tool{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background:gray;
+  height:40px;
+}
+
+#search-tool{
+  background:rgb(255, 244, 162);
+  margin-left:5px;
+}

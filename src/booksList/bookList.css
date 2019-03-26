@@ -1,0 +1,59 @@
+.book-item-container{
+  display:flex;
+  flex-direction: row;
+  margin-top:25px;
+}
+
+.book-cover{
+  display:flex;
+  align-items: center;
+  width:20%;
+}
+
+li{
+  list-style-type:none;
+}
+
+#view-more{
+  color:blue;
+  margin-left: 5px;
+}
+
+#view-less{
+  color:blue;
+  margin-left: 5px;
+}
+
+.book-description{
+  margin:2em;
+  text-align: left;
+}
+
+.book-author{
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 640px) {
+  .book-item-container{
+    display:flex;
+    flex-direction: column;
+    margin-top:25px;
+    position: relative;
+  }
+.book-info{
+  margin-right:35px;
+  
+  
+}
+.book-description{
+  margin:2em;
+  text-align: left;
+}
+  .book-cover{
+    display:flex;
+    
+   
+   margin-left:60px;
+   
+  }
+}
